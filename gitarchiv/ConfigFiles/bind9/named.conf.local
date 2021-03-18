@@ -1,0 +1,11 @@
+
+zone "myplayground.local" {
+	type master;
+	file "/etc/bind/zones/db.myplayground.local";
+};
+
+zone "178.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.192.168.178";
+};
+
